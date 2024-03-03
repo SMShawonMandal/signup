@@ -1,6 +1,4 @@
 import React from 'react'
-import { MdOutlineMail } from "react-icons/md";
-import { MdPhoneEnabled } from "react-icons/md";
 import { Link } from 'react-router-dom';
 
 

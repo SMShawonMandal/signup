@@ -13,7 +13,7 @@ import { Autoplay, Pagination } from 'swiper/modules';
 const Banner = () => {
 
     return (
-        <div className='h-screen'>
+        <div className='h-screen min-h-[750px]'>
             <div className='flex  justify-center items-center bg-[#509FFC] h-full'>
                 <div className='flex md:flex-row lg:flex-row flex-col justify-center items-center  m-10 md:gap-4 gap-4 lg:gap-32'>
                     <Swiper
@@ -35,7 +35,7 @@ const Banner = () => {
                     </Swiper>
                     <div className=' w-full lg:w-[50%] md:w-[40%] text-center text-wrap p-8 space-y-6 text-white'>
                         <h2 className=' text-2xl  font-bold text-center'>VaxCentral</h2>
-                        <p className='text-center lg:max-w-[550px] pb-9 md:max-w-96 w-full text-balance'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem ad, facili, adipisicing elit. Quidem ad, facili.</p>
+                        <p className='text-center lg:max-w-[550px] pb-9 md:max-w-96 w-full text-balance'>Discover reliable information about vaccinations at our Vaccination Hub. From COVID-19 vaccines to routine immunizations, we provide essential insights to empower informed decisions. Join us in promoting health, safety, and a brighter future through vaccination.</p>
                         <Link to='/signup'>
                             <button className='btn'> Sign Up </button>
                         </Link>
